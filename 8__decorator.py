@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 class Coffee(ABC):
-    @abstractmethod
+    @abstractmethod 
     def cost(self):
         pass
 
